@@ -1,0 +1,44 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img.avatar {
+    height: 200px;
+    border: solid black 2px;
+    border-radius: 50%;
+    padding: 3px;
+    opacity: 0.7;
+}
+img.avatar:hover{
+    border: solid var(--secondary-color) 2px;
+    opacity: 1;
+    transition:0.4s;
+    
+}
+.name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.7em;
+    margin-top: 8px;
+}
+.name:hover {
+    color: var(--secondary-color);
+    transition:0.4s;
+    
+}
+.slogan {
+    margin: 0;
+    font-size: 1.2em;
+}
+.slogan:hover {
+    color: var(--secondary-color);
+    transition:0.4s;
+}
+.container {
+    display: flex;
+    flex-flow: column;
+
+    justify-content: center;
+    align-items: center;
+}

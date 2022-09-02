@@ -1,0 +1,54 @@
+.logo-toggle h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16pt;
+  font-weight: 600;
+  margin: 0;
+}
+
+.menu-area {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu-area a {
+  padding: 20px;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.menu-area a:hover {
+  color: var(--secondary-color);
+  transition: 0.3s;
+}
+
+.menu-toggle {
+  background-color: #FFF;
+  width: 40px;
+  border-radius: 10%;
+  opacity: 0.8;
+  transition: 0.4s;
+  display: none;
+}
+
+.menu-toggle:hover {
+  opacity: 1;
+  cursor: pointer;
+
+}
+
+.navbar {
+  display: none;
+}
+
+@media(max-width: 500px) {
+  .menu-area {
+    display: none;
+  }
+
+  .navbar {
+    display: flex;
+  }
+}

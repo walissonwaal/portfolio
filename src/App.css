@@ -1,0 +1,35 @@
+:root {
+    --header-height: 60px;
+    --footer-height:30px;
+    --primary-color:#d8d8d9;
+    --secondary-color: #eb5234;
+    --back-color: #1d1e20;
+}
+
+.app {
+    height: 100vh;
+    background-color: var(--back-color);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 
+        var(--header-height)
+        1fr
+        var(--footer-height);
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    background-color: var(--back-color);
+    color: var(--primary-color);
+}
+
+header.header {
+    grid-area: header;
+}
+main.main {
+    grid-area: main;
+}
+footer.footer {
+    grid-area: footer;
+}

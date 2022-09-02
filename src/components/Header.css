@@ -1,0 +1,24 @@
+.header {
+    height: 60px;
+    width: 100%;
+    padding-left: 15px;
+
+    background-color: var(--back-color);
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.name-footer {
+    color: var(--secondary-color);
+    font-size: 10pt;
+}
+footer span {
+    font-size: 10pt;
+}
+@media(max-width:500px) {
+    .header{
+        justify-content: space-between;
+    }
+}

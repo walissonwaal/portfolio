@@ -1,0 +1,21 @@
+.logo {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.logo h1 {
+    font-size: 16pt;
+    font-weight: 600;
+    margin: 0;
+}
+.logo-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.logo-link:hover{
+    color: var(--secondary-color);
+    transition:0.8s;
+}
+@media(max-width: 500px){
+    .logo{
+        display: none;
+    }
+}
